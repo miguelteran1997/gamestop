@@ -1,0 +1,55 @@
+﻿body {
+    background-size: cover;
+    font-family: Arial;
+    color: white;
+    background-image: url("game.jpg");
+    background-color: #cccccc;
+}
+
+img.bg {
+    min-width: 100%;
+    min-height: 1024px;
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+    ul li {
+        float: left;
+        width: 200px;
+        height: 40px;
+        background-color: black;
+        opacity: .8;
+        line-height: 40px;
+        text-align: center;
+        font-size: 20px;
+        margin-right: 2px;
+    }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+            ul li a:hover {
+                background-color: cornflowerblue;
+            }
+
+        ul li ul li {
+            display: none;
+            color: white;
+            display:  compact;
+        }
+
+        ul li:hover ul li {
+            display: block;
+            color: white;
+
+        }
+
